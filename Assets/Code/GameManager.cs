@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager S
+    public static GameManager S;
 
     public int gameNumber;
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("GameNumber", value);
         }
     }
-    public int DamageHero() {
+    public int DamageHero {
         get {
             return PlayerPrefs.GetInt("DamageHero", 0);
         }

@@ -195,7 +195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24575072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.09, y: -6.34, z: 0}
+  m_LocalPosition: {x: 13.8, y: -6.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -376,7 +376,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 10000}
+  m_SizeDelta: {x: 10000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103689068
 MonoBehaviour:
@@ -457,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120098740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.17, y: -6.2, z: 0}
+  m_LocalPosition: {x: -13.9, y: -6.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -550,6 +550,7 @@ GameObject:
   - component: {fileID: 301027879}
   - component: {fileID: 301027882}
   - component: {fileID: 301027883}
+  - component: {fileID: 301027884}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -698,6 +699,19 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &301027884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301027878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34780d04add85e14ca9b0a028715a068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameNumber: 0
 --- !u!1001 &325560672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10574,7 +10588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c4faf85babb6eb4aa4b481b6c82a927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasEnd: {fileID: 0}
+  canvasEnd: {fileID: 1164186002}
   healthbar: {fileID: 457933494}
   level: 0
   maxHealth: 100
