@@ -1,0 +1,4 @@
+interface IAttacking
+{
+    void Attack();
+}
